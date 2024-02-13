@@ -1,0 +1,151 @@
+.title {
+    text-align: center;
+    margin-top: 20px; /* Ajusta según sea necesario */
+}
+
+.title h1 {
+    font-size: 60px;
+    font-family: 'Arial Black', sans-serif;
+    color: hsl(266, 83%, 44%);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.title h1 span {
+    font-size: 80px;
+    font-weight: bold;
+    color: hsl(343, 82%, 42%);
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
+}
+
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    
+    background-color: hsl(235, 36%, 27%);
+    margin: 0;
+    padding: 0;
+
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.warm-text {
+    background-color: hwb(219 70% 9%);
+    padding: 20px;
+    text-align: center;
+    max-width: 600px; 
+    margin: 0 auto; 
+    margin-bottom: 20px;
+}
+
+.warm-text p {
+    font-size: 18px;
+    color: #8C644D; /* Color del texto */
+}
+
+
+.container {
+
+    max-width: 1000px;
+    padding: 20px;
+    background-color: hwb(219 70% 9%);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.lyrics2 {
+    background-color: #EDEDED; 
+    padding: 10px; border-radius: 5px;
+    border: 1px solid #ddd; 
+    margin-top: 20px; 
+}
+.lyrics-container {
+    flex: 2;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    color: #333;
+}
+
+#lyrics {
+    margin-top: 20px;
+    padding: px;
+
+    border-radius: 5px;
+    
+    line-height: 1.6;
+    font-size: 25px;
+    font-weight: bold;
+}
+#translatedLyrics {
+    margin-top: 0px;
+    padding: 10px;
+    border-radius: 5px;
+    
+    line-height: 1.6;
+    font-size: 18px; 
+}
+audio {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+.controls button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.controls button:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+#playButton {
+    background-color:#66CC99;
+}
+
+#pauseButton {
+    background-color: #FF6666;
+}
+
+
+
+
+
